@@ -93,3 +93,67 @@
 
 @import 'lite-youtube-embed/src/lite-yt-embed.css';
 @import 'mmenu-light/dist/mmenu-light.css';
+:root {
+  --shafaq-blue: #0A2E5C;
+  --shafaq-blue-light: #1F5DA8;
+  --shafaq-gold: #D4A73F;
+  --shafaq-bg: #F5F7FA;
+}
+/* SHAFAQ Medical Luxury Identity */
+:root {
+  --shafaq-blue: #0A2E5C;
+  --shafaq-blue-2: #123D7A;
+  --shafaq-gold: #D4A73F;
+  --shafaq-bg: #F5F7FA;
+  --shafaq-dark: #071E3A;
+}
+
+body {
+  background: var(--shafaq-bg);
+}
+
+.s-block {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.s-button-primary,
+button[type="submit"] {
+  background: linear-gradient(135deg, var(--shafaq-blue), var(--shafaq-blue-2)) !important;
+  color: #fff !important;
+  border-radius: 14px !important;
+}
+
+.s-button-primary:hover {
+  box-shadow: 0 10px 25px rgba(10, 46, 92, .25);
+  transform: translateY(-1px);
+}
+
+.s-product-card-entry {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(10, 46, 92, .08);
+  border: 1px solid rgba(212, 167, 63, .18);
+}
+
+.s-product-card-content-title a {
+  color: var(--shafaq-blue) !important;
+  font-weight: 700;
+}
+
+.s-block__title,
+.s-block__title h2,
+.s-slider-block__title h2 {
+  color: var(--shafaq-blue);
+  font-weight: 800;
+}
+
+.s-block__title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 3px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, var(--shafaq-gold), transparent);
+  border-radius: 999px;
+}

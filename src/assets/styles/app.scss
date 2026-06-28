@@ -157,3 +157,52 @@ button[type="submit"] {
   background: linear-gradient(90deg, var(--shafaq-gold), transparent);
   border-radius: 999px;
 }
+.shafaq-hero {
+  background: linear-gradient(135deg, #0A2E5C, #123D7A 55%, #1F5DA8);
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  padding: 70px 8%;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.shafaq-hero__content {
+  max-width: 680px;
+  text-align: right;
+  direction: rtl;
+}
+
+.shafaq-hero__badge {
+  display: inline-block;
+  background: #D4A73F;
+  color: #0A2E5C;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.shafaq-hero h1 {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.shafaq-hero p {
+  font-size: 20px;
+  line-height: 1.9;
+  color: #F5F7FA;
+  margin-bottom: 28px;
+}
+
+.shafaq-hero__btn {
+  display: inline-block;
+  background: #D4A73F;
+  color: #0A2E5C;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}

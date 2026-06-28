@@ -1,14 +1,28 @@
 {#
-| Variable         | Type       | Description                                                         |
-|------------------|------------|---------------------------------------------------------------------|
-| page             | object     |                                                                     |
-| page.title       | string     | *could be html                                                      |
-| page.slug        | string     | ex: "cat.show"                                                      |
+| Variable         | Type       | Description |
 #}
 {% extends "layouts.master" %}
+
 {% block content %}
-    {% component home %}
+
+<section class="shafaq-hero">
+    <div class="shafaq-hero__content">
+        <span class="shafaq-hero__badge">SHAFAQ.ONLINE</span>
+        <h1>شفق الشرق للمستلزمات الطبية</h1>
+        <p>
+            حلول طبية متكاملة للكراسي المتحركة، الأسرة الطبية، الرعاية المنزلية،
+            وأجهزة التأهيل والعلاج الطبيعي.
+        </p>
+        <a href="/categories" class="shafaq-hero__btn">
+            تصفح الأقسام الطبية
+        </a>
+    </div>
+</section>
+
+{% component home %}
+
 {% endblock %}
+
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>
 {% endblock %}

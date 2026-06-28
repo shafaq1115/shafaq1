@@ -206,3 +206,324 @@ button[type="submit"] {
   font-weight: 800;
   text-decoration: none;
 }
+:root {
+  --shafaq-blue: #0A2E5C;
+  --shafaq-blue-2: #123D7A;
+  --shafaq-gold: #D4A73F;
+  --shafaq-bg: #F7F9FC;
+  --shafaq-border: #E5ECF3;
+}
+
+body {
+  background: var(--shafaq-bg);
+  font-family: "Tajawal", "Cairo", sans-serif;
+}
+
+.top-navbar,
+.main-nav-container,
+.store-header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--shafaq-border);
+}
+
+.top-navbar {
+  font-size: 13px;
+  color: var(--shafaq-blue);
+}
+
+.main-menu li > a,
+.main-menu a {
+  font-weight: 700;
+  color: var(--shafaq-blue) !important;
+}
+
+.main-menu li > a:hover,
+.main-menu a:hover {
+  color: var(--shafaq-gold) !important;
+}
+
+.header-search,
+.search-input,
+.s-search-input {
+  border-radius: 999px !important;
+  background: #f1f5f9 !important;
+  border: 1px solid var(--shafaq-border) !important;
+}
+
+.s-cart-summary-wrapper,
+.header-btn,
+.s-user-menu-trigger {
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid var(--shafaq-border);
+  box-shadow: 0 8px 24px rgba(10, 46, 92, 0.08);
+}
+
+.s-product-card-entry {
+  border-radius: 22px !important;
+  overflow: hidden;
+  border: 1px solid var(--shafaq-border);
+  box-shadow: 0 14px 35px rgba(10, 46, 92, 0.08);
+  transition: 0.25s ease;
+}
+
+.s-product-card-entry:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(10, 46, 92, 0.14);
+}
+
+.s-product-card-image {
+  background: linear-gradient(180deg, #ffffff, #eef4fa);
+}
+
+.s-product-card-content-title a,
+.s-product-card-content-title {
+  color: var(--shafaq-blue) !important;
+  font-weight: 800;
+}
+
+.s-product-card-price {
+  color: #b91c1c !important;
+  font-weight: 800;
+}
+
+.s-button-primary,
+.s-product-card-content-footer button,
+.s-add-to-cart-button {
+  background: var(--shafaq-blue) !important;
+  color: #ffffff !important;
+  border-radius: 999px !important;
+  border: 1px solid var(--shafaq-blue) !important;
+}
+
+.s-button-primary:hover,
+.s-product-card-content-footer button:hover,
+.s-add-to-cart-button:hover {
+  background: var(--shafaq-gold) !important;
+  border-color: var(--shafaq-gold) !important;
+  color: var(--shafaq-blue) !important;
+}
+
+.s-slider-block__title,
+.section-title,
+.home-section h2 {
+  color: var(--shafaq-blue);
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1240px;
+}
+/* SHAFAQ Medical Luxury Overrides */
+body {
+  background: #f6f8fb !important;
+  font-family: "Tajawal", "Cairo", Arial, sans-serif !important;
+}
+
+header,
+.store-header,
+.main-nav-container,
+.top-navbar {
+  background: #ffffff !important;
+}
+
+.main-nav-container,
+.store-header {
+  border-bottom: 1px solid #e6edf5 !important;
+  box-shadow: 0 8px 25px rgba(10, 46, 92, 0.06) !important;
+}
+
+.top-navbar {
+  color: #0A2E5C !important;
+  font-weight: 600 !important;
+}
+
+.main-menu a,
+.main-menu li > a,
+.header-menu a,
+.navbar-menu a {
+  color: #0A2E5C !important;
+  font-weight: 800 !important;
+}
+
+.main-menu a:hover,
+.header-menu a:hover,
+.navbar-menu a:hover {
+  color: #D4A73F !important;
+}
+
+.s-search-input,
+.search-input,
+input[type="search"] {
+  background: #f1f5f9 !important;
+  border: 1px solid #dbe5ef !important;
+  border-radius: 999px !important;
+  height: 44px !important;
+}
+
+.s-cart-summary-wrapper,
+.s-user-menu-trigger,
+.header-btn,
+button[aria-label="cart"],
+button[aria-label="user"] {
+  background: #ffffff !important;
+  border: 1px solid #e3ebf3 !important;
+  box-shadow: 0 8px 24px rgba(10, 46, 92, 0.08) !important;
+}
+
+.s-slider-block__title,
+.s-section-title,
+section h2 {
+  color: #0A2E5C !important;
+  font-weight: 900 !important;
+}
+
+.s-product-card-entry {
+  background: #ffffff !important;
+  border: 1px solid #e3ebf3 !important;
+  border-radius: 24px !important;
+  overflow: hidden !important;
+  box-shadow: 0 14px 36px rgba(10, 46, 92, 0.08) !important;
+  transition: all .25s ease !important;
+}
+
+.s-product-card-entry:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 22px 50px rgba(10, 46, 92, 0.14) !important;
+}
+
+.s-product-card-image {
+  background: linear-gradient(180deg, #ffffff 0%, #eef4fa 100%) !important;
+}
+
+.s-product-card-content-title,
+.s-product-card-content-title a {
+  color: #0A2E5C !important;
+  font-weight: 900 !important;
+}
+
+.s-product-card-price {
+  color: #b91c1c !important;
+  font-weight: 900 !important;
+}
+
+.s-product-card-content-footer button,
+.s-add-to-cart-button,
+.s-button-primary {
+  background: #0A2E5C !important;
+  color: #ffffff !important;
+  border: 1px solid #0A2E5C !important;
+  border-radius: 999px !important;
+  font-weight: 800 !important;
+}
+
+.s-product-card-content-footer button:hover,
+.s-add-to-cart-button:hover,
+.s-button-primary:hover {
+  background: #D4A73F !important;
+  color: #0A2E5C !important;
+  border-color: #D4A73F !important;
+}
+.shafaq-header {
+  background: #fff !important;
+  border-bottom: 1px solid #e7edf5;
+}
+
+.shafaq-topbar {
+  background: linear-gradient(90deg, #0A2E5C, #123D7A);
+  color: #fff;
+  font-size: 13px;
+}
+
+.shafaq-topbar__inner,
+.shafaq-mainnav__inner,
+.shafaq-menu__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shafaq-topbar__right,
+.shafaq-topbar__left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 8px 0;
+}
+
+.shafaq-mainnav {
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(10, 46, 92, .08);
+}
+
+.shafaq-mainnav__inner {
+  gap: 24px;
+  min-height: 86px;
+}
+
+.shafaq-logo img {
+  max-height: 58px;
+  width: auto;
+}
+
+.shafaq-search {
+  flex: 1;
+  max-width: 620px;
+}
+
+.shafaq-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.shafaq-menu {
+  background: #f7f9fc;
+  border-top: 1px solid #e6edf5;
+  border-bottom: 1px solid #e6edf5;
+}
+
+.shafaq-menu__inner {
+  justify-content: center;
+  gap: 26px;
+  min-height: 48px;
+  overflow-x: auto;
+}
+
+.shafaq-menu__inner a {
+  color: #0A2E5C !important;
+  font-weight: 800;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.shafaq-menu__inner a:hover {
+  color: #D4A73F !important;
+}
+
+.shafaq-menu__offer {
+  background: #D4A73F;
+  color: #0A2E5C !important;
+  padding: 8px 18px;
+  border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+  .shafaq-topbar {
+    display: none;
+  }
+
+  .shafaq-mainnav__inner {
+    min-height: 70px;
+    gap: 12px;
+  }
+
+  .shafaq-search {
+    display: none;
+  }
+
+  .shafaq-menu__inner {
+    justify-content: flex-start;
+    padding: 0 12px;
+  }
+}
